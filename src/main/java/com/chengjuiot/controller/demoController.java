@@ -36,7 +36,11 @@ public class demoController {
     }
 
 
-
+    @RequestMapping("/login")
+    @ResponseBody
+    public String login(){
+        return "zhen de shi rang ren tao yan de jia huo";
+    }
 
 //    2018-07-25
 //    @RequestMapping("/saveBookDB")
